@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>DRR Report</title>
+</head>
+<body>
+    <div class="container">
+        <h1>DRR Report</h1>
+        <div class="date-picker">
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="start-date">
+            <label for="end-date">End Date:</label>
+            <input type="date" id="end-date">
+            <label for="excluded-dates">Exclude Dates:</label>
+            <input type="text" id="excluded-dates" placeholder="MM/DD/YYYY, MM/DD/YYYY">
+        </div>
+        <div class="result">
+            <p>Starting Month: <span id="month"></span></p>
+            <p>Starting Year: <span id="year"></span></p>
+            <p>Number of Days: <span id="num-days"></span></p>
+            <label for="lead-count">Number of Leads:</label>
+            <input type="number" id="lead-count">
+            <p>Expected Lead Count: <span id="expected-lead-count"></span></p>
+            <button id="save-button">Save</button>
+        </div>
+    
+    <div class="result">
+      
+        <h2>Data Table</h2>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Excluded Dates</th>
+                <th>Number of Days</th>
+                <th>Number of Leads</th>
+                <th>Expected Lead Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table body content will be dynamically populated by JavaScript -->
+        </tbody>
+    </table>
+
+
+   
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+ <!-- Input fields for data entry -->
+    <!-- <div>
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date">
+        <label for="end-date">End Date:</label>
+        <input type="date" id="end-date">
+        <label for="excluded-dates">Exclude Dates:</label>
+        <input type="text" id="excluded-dates" placeholder="MM/DD/YYYY, MM/DD/YYYY">
+        <label for="lead-count">Number of Leads:</label>
+        <input type="number" id="lead-count">
+        <button id="save-button">Save</button>
+    </div> -->
+
+    <!--    <button id="save-button">Save</button>
+    </div> -->
